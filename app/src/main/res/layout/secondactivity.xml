@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="60dip"
+       android:id="@+id/input"
+       android:background="@drawable/button"
+       android:gravity="right|bottom"
+       android:layout_margin="20dp"
+       android:text="0"
+       android:textSize="40dp"/>
+
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="C"
+            android:textSize="20sp"
+            android:id="@+id/clear"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="DEL"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/del"
+           />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="÷"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/divide"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="×"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/cheng"/>
+    </LinearLayout>
+
+</LinearLayout>
