@@ -3,13 +3,9 @@ package com.example.administrator.silly;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.ButtonBarLayout;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import java.security.PrivateKey;
 
 public class MainActivity extends AppCompatActivity {
     final String TGA="tga";
@@ -66,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent();
-                intent.setClass(MainActivity.this,GridView.class);
+                intent.setClass(MainActivity.this,Spinner.class);
                 startActivity(intent);
             }
         });

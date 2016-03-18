@@ -21,7 +21,7 @@
         <activity android:name=".threeactivity" />
         <activity android:name=".fourActivity" />
         <activity android:name=".LOL_HERO" />
-        <activity android:name=".GridView"></activity>
+        <activity android:name=".Spinner"></activity>
     </application>
 
 </manifest>

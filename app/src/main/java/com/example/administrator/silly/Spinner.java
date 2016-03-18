@@ -3,7 +3,7 @@ package com.example.administrator.silly;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class GridView extends AppCompatActivity {
+public class Spinner extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
