@@ -58,7 +58,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GirdView"
+            android:text="图片播放"
             android:id="@+id/button6"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
